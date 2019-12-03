@@ -1,0 +1,20 @@
+header{
+  padding: 0% 10%;
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bar ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bar li{
+  padding: 0px 18px;
+}

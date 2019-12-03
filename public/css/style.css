@@ -1,0 +1,27 @@
+header {
+  padding: 0% 10%;
+}
+
+nav {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.bar ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.bar li {
+  padding: 0px 18px;
+}
+
