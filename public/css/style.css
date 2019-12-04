@@ -1,5 +1,5 @@
 header {
-  padding: 0% 10%;
+  padding: 0% 7%;
 }
 
 nav {
@@ -23,5 +23,72 @@ nav {
 
 .bar li {
   padding: 0px 18px;
+}
+
+.left-head {
+  width: 50%;
+}
+
+.left-head h1 {
+  font-size: 50px;
+  color: #58402C;
+}
+
+.left-head p {
+  font-size: 22px;
+  color: #58402C;
+}
+
+.left-head .btn {
+  display: -webkit-box;
+  display: flex;
+}
+
+.right-head {
+  width: 50%;
+}
+
+.right-head img {
+  width: 100%;
+}
+
+.box-illustration {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+footer {
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.slogan {
+  width: 35%;
+}
+
+.contact-box {
+  width: 65%;
+  display: -webkit-box;
+  display: flex;
+}
+
+.contact-box ul {
+  list-style-type: none;
+}
+
+.container {
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  padding-top: 7%;
 }
 

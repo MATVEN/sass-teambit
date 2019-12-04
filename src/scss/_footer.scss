@@ -1,0 +1,17 @@
+footer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.slogan{
+  width: 35%;
+}
+
+.contact-box{
+  width: 65%;
+  display: flex;
+  ul{
+    list-style-type: none;
+  }
+}
