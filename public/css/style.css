@@ -39,11 +39,6 @@ nav {
   color: #58402C;
 }
 
-.left-head .btn {
-  display: -webkit-box;
-  display: flex;
-}
-
 .right-head {
   width: 50%;
 }
@@ -148,6 +143,33 @@ nav {
   text-align: center;
 }
 
+.container-sec {
+  margin-left: 30%;
+  margin-right: 30%;
+  border: 1px solid grey;
+}
+
+.container-sec .found-cont {
+  display: -webkit-box;
+  display: flex;
+}
+
+.container-sec .found-cont img {
+  width: 7.5%;
+  height: 7.5%;
+}
+
+.sign-sec {
+  padding-top: 2.5%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
 footer {
   width: 100%;
   display: -webkit-box;
@@ -177,6 +199,11 @@ footer {
   -webkit-box-align: center;
           align-items: center;
   padding: 7% 0%;
+}
+
+.btn {
+  display: -webkit-box;
+  display: flex;
 }
 
 a {
