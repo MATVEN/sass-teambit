@@ -4,8 +4,12 @@
 @import "footer";
 
 .container{
-  width: 100%;
+  width: $content-size;
   display: flex;
   align-items: center;
-  padding-top: 7%;
+  padding: 7% 0%;
+}
+
+a{
+  text-decoration: none;
 }

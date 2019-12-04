@@ -23,22 +23,22 @@ nav{
 // header
 .left-head{
   width: $row_size;
-  h1{
-    font-size: 50px;
-    color: $brand_primary;
-  }
-  p{
-    font-size: 22px;
-    color: $brand_primary;
-  }
-  .btn{
-    display: flex;
-  }
+    h1{
+      font-size: 50px;
+      color: $brand_primary;
+    }
+    p{
+      font-size: 22px;
+      color: $brand_primary;
+    }
+    .btn{
+      display: flex;
+    }
 }
 
 .right-head{
   width: $row_size;
-  img{
-    width: 100%;
-  }
+    img{
+      width: $content-size;
+    }
 }

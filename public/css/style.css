@@ -52,21 +52,100 @@ nav {
   width: 100%;
 }
 
-.box-illustration {
+.top-box {
+  padding: 5% 15%;
+  text-align: center;
+}
+
+.top-box .box-illustration {
   display: -webkit-box;
   display: flex;
-  -webkit-box-pack: justify;
-          justify-content: space-between;
+  justify-content: space-around;
+  -webkit-box-align: center;
+          align-items: center;
+  padding-top: 5%;
+}
+
+.top-box .box-illustration .row-illustration {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
           align-items: center;
 }
 
+.top-box .box-illustration .row-illustration img {
+  width: 40%;
+}
+
+.space-bottom {
+  padding-bottom: 8%;
+}
+
+.bottom-box {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.bottom-box img {
+  width: 20%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
 .left-main {
   width: 50%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -webkit-box-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: end;
+          align-items: flex-end;
+}
+
+.left-main .cover-employe {
+  width: 100%;
+}
+
+.left-main img {
+  width: 45%;
 }
 
 .right-main {
   width: 50%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+}
+
+.right-main .cover-employe {
+  width: 100%;
+}
+
+.right-main img {
+  width: 45%;
+}
+
+.tit-sec {
+  text-align: center;
 }
 
 footer {
@@ -97,6 +176,10 @@ footer {
   display: flex;
   -webkit-box-align: center;
           align-items: center;
-  padding-top: 7%;
+  padding: 7% 0%;
+}
+
+a {
+  text-decoration: none;
 }
 
