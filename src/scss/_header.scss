@@ -22,7 +22,7 @@ nav{
 
 // header
 .left-head{
-  width: 50%;
+  width: $row_size;
   h1{
     font-size: 50px;
     color: $brand_primary;
@@ -37,7 +37,7 @@ nav{
 }
 
 .right-head{
-  width: 50%;
+  width: $row_size;
   img{
     width: 100%;
   }

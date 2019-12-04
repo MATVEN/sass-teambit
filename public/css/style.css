@@ -61,6 +61,14 @@ nav {
           align-items: center;
 }
 
+.left-main {
+  width: 50%;
+}
+
+.right-main {
+  width: 50%;
+}
+
 footer {
   width: 100%;
   display: -webkit-box;
