@@ -1,3 +1,8 @@
+// general main rules
+.row-clr{
+  background-color: $main_color;
+}
+
 // section top
 .top-box {
   padding: 5% 15%;
@@ -31,11 +36,11 @@
   justify-content: center;
   align-items: center;
 
-  img{
-    width: 20%;
-    display: flex;
-    justify-content: center;
-  }
+    img{
+      width: 20%;
+      display: flex;
+      justify-content: center;
+    }
 }
 
 // section central

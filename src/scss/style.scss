@@ -12,8 +12,16 @@
 
 .btn{
   display: flex;
+   button{
+     background-color: $btn_color;
+     border-radius: 10px;
+   }
 }
 
 a{
   text-decoration: none;
+}
+
+hr{
+  margin: 0;
 }

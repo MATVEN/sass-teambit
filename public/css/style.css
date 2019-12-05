@@ -47,6 +47,10 @@ nav {
   width: 100%;
 }
 
+.row-clr {
+  background-color: #FFE7D2;
+}
+
 .top-box {
   padding: 5% 15%;
   text-align: center;
@@ -206,7 +210,16 @@ footer {
   display: flex;
 }
 
+.btn button {
+  background-color: #30488F;
+  border-radius: 10px;
+}
+
 a {
   text-decoration: none;
+}
+
+hr {
+  margin: 0;
 }
 
