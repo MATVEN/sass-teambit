@@ -12,8 +12,12 @@
 
 .btn{
   display: flex;
+  
    button{
      background-color: $btn_color;
+     color: white;
+     font-size: 14px;
+     padding: 0px 20px;
      border-radius: 10px;
    }
 }
@@ -24,4 +28,8 @@ a{
 
 hr{
   margin: 0;
+}
+
+h5{
+  padding-top: 50px;
 }

@@ -115,8 +115,8 @@ console.log('ciao');
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Mattia\Desktop\Boolean-Ex\BackEnd\teambit\src\js\script.js */"./src/js/script.js");
-module.exports = __webpack_require__(/*! C:\Users\Mattia\Desktop\Boolean-Ex\BackEnd\teambit\src\scss\style.scss */"./src/scss/style.scss");
+__webpack_require__(/*! C:\Users\Mattia\Desktop\Boolean-Ex\FrontEnd\teambit\src\js\script.js */"./src/js/script.js");
+module.exports = __webpack_require__(/*! C:\Users\Mattia\Desktop\Boolean-Ex\FrontEnd\teambit\src\scss\style.scss */"./src/scss/style.scss");
 
 
 /***/ })

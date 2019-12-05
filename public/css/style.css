@@ -66,19 +66,31 @@ nav {
 }
 
 .top-box .box-illustration .row-illustration {
+  width: 40%;
+  height: 10%;
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
           flex-direction: column;
-  -webkit-box-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
           align-items: center;
 }
 
 .top-box .box-illustration .row-illustration img {
   width: 40%;
+}
+
+.top-box .box-illustration .row-illustration #img1 {
+  width: 30%;
+}
+
+.top-box .box-illustration .row-illustration #img2 {
+  width: 50%;
+}
+
+.top-box .box-illustration .row-illustration #img3 {
+  width: 25%;
 }
 
 .space-bottom {
@@ -150,6 +162,7 @@ nav {
 .container-sec {
   margin-left: 30%;
   margin-right: 30%;
+  padding: 0px 30px;
   border: 1px solid grey;
   background-color: white;
 }
@@ -157,11 +170,17 @@ nav {
 .container-sec .found-cont {
   display: -webkit-box;
   display: flex;
+  -webkit-box-align: center;
+          align-items: center;
 }
 
 .container-sec .found-cont img {
   width: 7.5%;
   height: 7.5%;
+}
+
+.container-sec .found-cont .found-info {
+  font-size: 12px;
 }
 
 .sign-sec {
@@ -179,18 +198,29 @@ footer {
   width: 100%;
   display: -webkit-box;
   display: flex;
-  -webkit-box-align: center;
-          align-items: center;
+  padding: 55px 0px;
 }
 
 .slogan {
   width: 35%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
 }
 
 .contact-box {
   width: 65%;
+  margin-right: 20px;
   display: -webkit-box;
   display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+}
+
+.contact-box .contact {
+  padding: 0px 20px;
+  font-size: 16px;
 }
 
 .contact-box ul {
@@ -213,6 +243,9 @@ footer {
 
 .btn button {
   background-color: #30488F;
+  color: white;
+  font-size: 14px;
+  padding: 0px 20px;
   border-radius: 10px;
 }
 
@@ -222,5 +255,9 @@ a {
 
 hr {
   margin: 0;
+}
+
+h5 {
+  padding-top: 50px;
 }
 
