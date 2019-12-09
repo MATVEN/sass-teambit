@@ -10,14 +10,19 @@
   padding: 7% 0%;
 }
 
+form{
+  height: 40px;
+  align-items: center;
+}
+
 .btn{
   display: flex;
-  
+
    button{
      background-color: $btn_color;
      color: white;
      font-size: 14px;
-     padding: 0px 20px;
+     padding: 8px 20px;
      border-radius: 10px;
    }
 }

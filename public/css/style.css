@@ -78,19 +78,11 @@ nav {
 }
 
 .top-box .box-illustration .row-illustration img {
-  width: 40%;
+  max-height: 110px;
 }
 
 .top-box .box-illustration .row-illustration #img1 {
-  width: 30%;
-}
-
-.top-box .box-illustration .row-illustration #img2 {
-  width: 50%;
-}
-
-.top-box .box-illustration .row-illustration #img3 {
-  width: 25%;
+  width: 40%;
 }
 
 .space-bottom {
@@ -236,6 +228,12 @@ footer {
   padding: 7% 0%;
 }
 
+form {
+  height: 40px;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
 .btn {
   display: -webkit-box;
   display: flex;
@@ -245,7 +243,7 @@ footer {
   background-color: #30488F;
   color: white;
   font-size: 14px;
-  padding: 0px 20px;
+  padding: 8px 20px;
   border-radius: 10px;
 }
 
